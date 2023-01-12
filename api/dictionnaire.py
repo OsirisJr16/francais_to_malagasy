@@ -17,7 +17,7 @@ def get_traduction_to_malagasy(mot) :
         if i.isalpha() : 
             traductions.append(i)
     if traductions:
-        return traductions 
+        return ' '.join(traductions )
     else:
         return 'Aucun mots semblabes à'+' '+mot 
 
