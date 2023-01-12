@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     version='0.1', 
     name='dictionnaire-francais-malagasy', 
-
+    url ='https://github.com/OsirisJr16/francais_to_malagasy.git' ,
     packages=setuptools.find_packages(),
     install_requires = [
         "requests>=2.28.2" , 
